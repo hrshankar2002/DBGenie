@@ -5,5 +5,3 @@ pymongo[srv]
 dnspython
 ensure
 pytest
-
--e .

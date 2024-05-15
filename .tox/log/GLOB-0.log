@@ -1,0 +1,66 @@
+action: GLOB, msg: packaging
+cwd: /Users/harishankarvs/Documents/Workspace/dbgenie
+cmd: /Users/harishankarvs/Documents/Workspace/dbgenie/env/bin/python3.12 setup.py sdist --formats=zip --dist-dir .tox/dist
+/Users/harishankarvs/Documents/Workspace/dbgenie/env/lib/python3.12/site-packages/setuptools/_distutils/dist.py:266: UserWarning: Unknown distribution option: 'long_description_content'
+  warnings.warn(msg)
+running sdist
+running egg_info
+writing src/dbgenie.egg-info/PKG-INFO
+writing dependency_links to src/dbgenie.egg-info/dependency_links.txt
+writing requirements to src/dbgenie.egg-info/requires.txt
+writing top-level names to src/dbgenie.egg-info/top_level.txt
+reading manifest file 'src/dbgenie.egg-info/SOURCES.txt'
+writing manifest file 'src/dbgenie.egg-info/SOURCES.txt'
+running check
+creating dbgenie-0.0.1
+creating dbgenie-0.0.1/src
+creating dbgenie-0.0.1/src/dbgenie
+creating dbgenie-0.0.1/src/dbgenie.egg-info
+creating dbgenie-0.0.1/src/dbgenie/mongodb
+creating dbgenie-0.0.1/src/dbgenie/mysql
+creating dbgenie-0.0.1/src/dbgenie/postgresql
+copying files to dbgenie-0.0.1...
+copying README.md -> dbgenie-0.0.1
+copying pyproject.toml -> dbgenie-0.0.1
+copying setup.cfg -> dbgenie-0.0.1
+copying setup.py -> dbgenie-0.0.1
+copying src/dbgenie/__init__.py -> dbgenie-0.0.1/src/dbgenie
+copying src/dbgenie.egg-info/PKG-INFO -> dbgenie-0.0.1/src/dbgenie.egg-info
+copying src/dbgenie.egg-info/SOURCES.txt -> dbgenie-0.0.1/src/dbgenie.egg-info
+copying src/dbgenie.egg-info/dependency_links.txt -> dbgenie-0.0.1/src/dbgenie.egg-info
+copying src/dbgenie.egg-info/requires.txt -> dbgenie-0.0.1/src/dbgenie.egg-info
+copying src/dbgenie.egg-info/top_level.txt -> dbgenie-0.0.1/src/dbgenie.egg-info
+copying src/dbgenie/mongodb/__init__.py -> dbgenie-0.0.1/src/dbgenie/mongodb
+copying src/dbgenie/mongodb/mongocrud.py -> dbgenie-0.0.1/src/dbgenie/mongodb
+copying src/dbgenie/mysql/__init__.py -> dbgenie-0.0.1/src/dbgenie/mysql
+copying src/dbgenie/mysql/mysqlcrud.py -> dbgenie-0.0.1/src/dbgenie/mysql
+copying src/dbgenie/postgresql/__init__.py -> dbgenie-0.0.1/src/dbgenie/postgresql
+copying src/dbgenie/postgresql/postgrescrud.py -> dbgenie-0.0.1/src/dbgenie/postgresql
+copying src/dbgenie.egg-info/SOURCES.txt -> dbgenie-0.0.1/src/dbgenie.egg-info
+Writing dbgenie-0.0.1/setup.cfg
+creating '.tox/dist/dbgenie-0.0.1.zip' and adding 'dbgenie-0.0.1' to it
+adding 'dbgenie-0.0.1'
+adding 'dbgenie-0.0.1/src'
+adding 'dbgenie-0.0.1/PKG-INFO'
+adding 'dbgenie-0.0.1/pyproject.toml'
+adding 'dbgenie-0.0.1/README.md'
+adding 'dbgenie-0.0.1/setup.py'
+adding 'dbgenie-0.0.1/setup.cfg'
+adding 'dbgenie-0.0.1/src/dbgenie'
+adding 'dbgenie-0.0.1/src/dbgenie.egg-info'
+adding 'dbgenie-0.0.1/src/dbgenie/postgresql'
+adding 'dbgenie-0.0.1/src/dbgenie/mongodb'
+adding 'dbgenie-0.0.1/src/dbgenie/mysql'
+adding 'dbgenie-0.0.1/src/dbgenie/__init__.py'
+adding 'dbgenie-0.0.1/src/dbgenie/postgresql/postgrescrud.py'
+adding 'dbgenie-0.0.1/src/dbgenie/postgresql/__init__.py'
+adding 'dbgenie-0.0.1/src/dbgenie/mongodb/__init__.py'
+adding 'dbgenie-0.0.1/src/dbgenie/mongodb/mongocrud.py'
+adding 'dbgenie-0.0.1/src/dbgenie/mysql/mysqlcrud.py'
+adding 'dbgenie-0.0.1/src/dbgenie/mysql/__init__.py'
+adding 'dbgenie-0.0.1/src/dbgenie.egg-info/PKG-INFO'
+adding 'dbgenie-0.0.1/src/dbgenie.egg-info/SOURCES.txt'
+adding 'dbgenie-0.0.1/src/dbgenie.egg-info/requires.txt'
+adding 'dbgenie-0.0.1/src/dbgenie.egg-info/top_level.txt'
+adding 'dbgenie-0.0.1/src/dbgenie.egg-info/dependency_links.txt'
+removing 'dbgenie-0.0.1' (and everything under it)
