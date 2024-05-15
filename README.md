@@ -39,10 +39,10 @@ Developers can instantiate these classes, configure connection parameters, and u
 ### 1. MongoDB
 #### 1.1 CRUD Operations
 ```bash
-from DatabaseCRUD import MongoDBCRUD
+from dbgenie.mongodb.mongocrud import MongoDBCrud
 
 # Connect to MongoDB
-mongodb_crud = MongoDBCRUD(uri="mongodb://localhost:27017", database="my_database", collection="my_collection")
+mongodb_crud = MongoDBCrud(uri="mongodb://localhost:27017", database="my_database", collection="my_collection")
 
 # Insert document
 mongodb_crud.insert_document({"name": "John", "age": 30})
@@ -60,7 +60,7 @@ mongodb_crud.delete_document({"name": "John"})
 ### 2. PostgreSQl
 #### 2.1 CRUD Operations
 ```bash
-from DatabaseCRUD import PostgreSQLCrud
+from dbgenie.postgresql.postgrescrud import PostgreSQLCrud
 
 # Connect to PostgreSQL
 postgresql_crud = PostgreSQLCrud(host="localhost", user="postgres", password="password", database="my_database")
@@ -84,7 +84,7 @@ postgresql_crud.delete_record("my_table", "name='John'")
 ### 3. MySQL
 #### 3.1 CRUD Operations
 ```bash
-from DatabaseCRUD import MySQLCrud
+from dbgenie.mysql.mysqlcrud import MySQLCrud
 
 # Connect to MySQL
 mysql_crud = MySQLCrud(host="localhost", user="root", password="password", database="my_database")
