@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 __version__ = "0.0.1"
 REPO_NAME = "DBGenie"
-PKG_NAME= "dbgenie"
+PKG_NAME= "dbgenie2"
 AUTHOR_USER_NAME = "hrshankar2002"
 AUTHOR_EMAIL = "hrshankar2002@gmail.com"
 

@@ -7,7 +7,7 @@ DBGenie is a Python package that provides classes for automating database operat
 ***You can install DBGenie using pip:***
 
 ```bash
-pip install DBGenie
+pip install dbgenie2
 ```
 ## Key Features
 
