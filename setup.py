@@ -24,6 +24,8 @@ setup(
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     packages=find_packages(where="src"),
     install_requires=['psycopg2-binary', 'mysql-connector-python', 'pymongo', 'pymongo[srv]', 'dnspython', 'ensure', 'pytest==7.1.3', 'tox', 'black==22.8.0', 'flake8==5.0.4', 'mypy==0.971']
     )
