@@ -1,4 +1,5 @@
-# DBGenie
+# DBGenie 
+[![Downloads](https://static.pepy.tech/badge/dbgenie2)](https://pepy.tech/project/dbgenie2)
 
 DBGenie is a Python package that provides classes for automating database operations on MongoDB, PostgreSQL, and MySQL databases. The package provides easy-to-use classes that encapsulate common database operations, allowing developers to focus on building their applications rather than dealing with low-level database interactions.
 
